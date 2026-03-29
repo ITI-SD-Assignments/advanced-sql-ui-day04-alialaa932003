@@ -204,13 +204,5 @@ revoke all on students from uni_readwrite;
 
 revoke all on students from uni_readonly;
 
--- Q17
--- full backup
--- pg_dump university_db > full_backup.sql
 
--- schema only
--- pg_dump -s university_db > schema_only.sql
-
--- data only
--- pg_dump -a university_db > data_only.sql
 
